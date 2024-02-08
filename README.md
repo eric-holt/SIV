@@ -20,8 +20,8 @@ Use `saveRDS()` to save an object in R.
 
 This app converts ggplot into Plotly using `ggplotly()` and data.frame-like object (like data.table) into DT using `datatable()`. 
 
-DT objects work locally but fails in the [shinyapps.io](https://a4d9lq-eric-holt.shinyapps.io/SimplePlotlyViewer/) instance. Just use the original table.
+DT objects work locally but fails in the [shinyapps.io](https://a4d9lq-eric-holt.shinyapps.io/simple-interactive-viewer/) instance. Just use the original table.
 
 
 Available at: 
-<https://a4d9lq-eric-holt.shinyapps.io/SimplePlotlyViewer/>
+<https://a4d9lq-eric-holt.shinyapps.io/simple-interactive-viewer/>

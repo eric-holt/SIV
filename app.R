@@ -4,8 +4,10 @@ library(DT)
 source("css.R")
 source("display_module.R")
 
+options(shiny.maxRequestSize = 2^30)
+
 ui = fixedPage(
-  titlePanel("Simple Plotly Viewer"),
+  titlePanel("Simple Interactive Viewer"),
   tags$head(tags$style(HTML(css))),
   uiOutput("UI"),
   actionButton("add", "", icon("plus"))
